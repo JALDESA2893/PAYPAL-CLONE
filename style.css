@@ -96,6 +96,11 @@ html{
 .nav-list-link i{
   font-size: 1rem;
   margin-left: 0.5rem;
+  transition: transform 0.3s;
 }
 
+.nav-list-item:hover .nav-list-link i {
+  transform: rotateZ(180deg);
+
+}
 /*End of Section-1*/
